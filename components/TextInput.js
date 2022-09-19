@@ -8,8 +8,8 @@ const TextInput = ({ errorText, description, ...props }) => {
     <View style={styles.container}>
       <Input
         style={styles.input}
-        selectionColor={theme.colors.primary}
-        underlineColor="transparent"
+        selectionColor="#ea4c89"
+        underlineColor="#ea4c89"
         mode="outlined"
         {...props}
       />
@@ -28,15 +28,16 @@ const styles = StyleSheet.create({
     },
     input: {
       backgroundColor: theme.colors.surface,
+      color: '#ea4c89',
     },
     description: {
       fontSize: 13,
-      color: theme.colors.secondary,
+      color: '#ea4c89',
       paddingTop: 8,
     },
     error: {
       fontSize: 13,
-      color: theme.colors.error,
+      color: '#ea4c89',
       paddingTop: 8,
     },
   });
