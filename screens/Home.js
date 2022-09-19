@@ -22,7 +22,7 @@ const Home = ({ navigation }) => {
       </Button>
       <Button
         mode="contained"
-        onPress={() => navigation.navigate('RegisterScreen')}
+        onPress={() => navigation.navigate('Register')}
       >
         Sign Up
       </Button>
