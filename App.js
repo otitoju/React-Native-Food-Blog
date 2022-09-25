@@ -5,6 +5,7 @@ import Home from "./screens/Home";
 import Login from "./screens/Login";
 import Register from "./screens/Register";
 import ForgotPasswordScreen from "./screens/ForgotPassword";
+import Dashboard from "./screens/Dashboard";
 
 const Stack = createStackNavigator();
 const theme = {
@@ -32,6 +33,7 @@ const App = () => {
       <Stack.Screen name="Login" component={Login}/>
       <Stack.Screen name="Register" component={Register}/>
       <Stack.Screen name="ForgotPassword" component={ForgotPasswordScreen}/>
+      <Stack.Screen name="Dashboard" component={Dashboard}/>
     </Stack.Navigator>
   </NavigationContainer>
   );
